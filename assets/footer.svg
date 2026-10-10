@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="64" viewBox="0 0 900 64" role="img" aria-label="hetvi@dev prompt"><style>
+:root{--card:#FFFFFF;--fg:#18181B;--dim:#71717A;--line:#E4E4E7;--acc:#6D5EF5}
+@media (prefers-color-scheme:dark){:root{--card:#0F0F14;--fg:#EDEDF0;--dim:#8B8B97;--line:#26262F;--acc:#9A8CFF}}
+text{font-family:ui-monospace,'SF Mono','JetBrains Mono','Fira Code',Menlo,Consolas,'DejaVu Sans Mono',monospace;white-space:pre}
+.fg{fill:var(--fg)}.dim{fill:var(--dim)}.acc{fill:var(--acc)}
+.card{fill:var(--card);stroke:var(--line);stroke-width:1.5}
+.rule{stroke:var(--line);stroke-width:1.5}
+.dot{fill:var(--line)}
+.track{fill:var(--line)}.bar{fill:var(--acc)}
+.blink{animation:blink 1.1s steps(1) infinite}
+@keyframes blink{50%{opacity:0}}
+.grow{transform-box:fill-box;transform-origin:left center;animation:grow 1.4s cubic-bezier(.2,.8,.2,1) both}
+@keyframes grow{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+</style><rect class="card" x="1" y="1" width="898" height="62" rx="12"/><text x="28" y="38" font-size="14"><tspan class="acc">hetvi@dev</tspan><tspan class="dim">:~$ </tspan><tspan class="fg">ready for the next task</tspan></text><rect class="acc blink" x="334.40000000000003" y="25" width="8" height="16"/></svg>
