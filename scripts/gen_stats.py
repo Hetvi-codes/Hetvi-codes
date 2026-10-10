@@ -68,12 +68,6 @@ text{font-family:MONO;white-space:pre}
 .fg{fill:var(--fg)}.dim{fill:var(--dim)}.acc{fill:var(--acc)}
 .card{fill:var(--card);stroke:var(--line);stroke-width:1.5}
 .rule{stroke:var(--line);stroke-width:1.5}
-.track{fill:var(--line)}
-.l0{fill:var(--line)}.l1{fill:var(--acc);opacity:.3}.l2{fill:var(--acc);opacity:.55}.l3{fill:var(--acc);opacity:.8}.l4{fill:var(--acc)}
-.grow{transform-box:fill-box;transform-origin:left center;animation:grow 1.4s cubic-bezier(.2,.8,.2,1) both}
-@keyframes grow{from{transform:scaleX(0)}to{transform:scaleX(1)}}
-.pop{animation:pop .9s ease-out both}
-@keyframes pop{from{opacity:0}to{opacity:1}}
 .dr{animation:dr 1.3s cubic-bezier(.2,.8,.2,1) both}
 @keyframes dr{from{stroke-dasharray:0 999}}
 """.replace("MONO", MONO)
@@ -97,7 +91,7 @@ def languages_svg(totals):
     if len(items) > 6:
         other = sum(v for _, v in items[5:]); items = items[:5] + [("Other", other)]
     H = 44 + 56 + len(items) * 30 + 34
-    s = [head(W, H, "Language distribution, most used to least used: " + ", ".join(k for k, _ in items))]
+    s = [head(W, H, "Language distribution: " + ", ".join(k for k, _ in items))]
     s.append(chrome(W, H, "languages --sort most-used"))
     cx, cy, r, sw = 160, 44 + (H - 44) / 2, 66, 26
     C = 2 * math.pi * r
@@ -112,11 +106,10 @@ def languages_svg(totals):
     s.append(f'<text class="acc" x="{cx}" y="{cy+8}" font-size="24" font-weight="700" text-anchor="middle">&lt;/&gt;</text>')
     s.append('<text x="320" y="84" font-size="12"><tspan class="acc">$</tspan><tspan class="dim"> what I code most</tspan></text>')
     for i, (k, v) in enumerate(items):
-        y = 122 + i * 30; p = v / total * 100
+        y = 122 + i * 30
         col = COLORS.get(k, "#A1A1AA")
         s.append(f'<circle cx="326" cy="{y-4}" r="5" fill="{col}"/>')
         s.append(f'<text class="fg" x="344" y="{y}" font-size="13" font-weight="700">{esc(k)}</text>')
-        s.append(f'<text class="dim" x="480" y="{y}" font-size="12">{p:.1f}%</text>')
     s.append('</svg>')
     return "".join(s)
 

@@ -1,8 +1,10 @@
 <img src="assets/header.svg" width="100%" alt="Hetvi Sampat — software engineer, full-stack + AI/ML builder"/>
 
+<!--
 ### ~/stack
 
 <img src="assets/stack.svg" width="100%" alt="Tech stack — languages: Python, Java, C/C++, SQL, JavaScript, Shell. Web: React, FastAPI, Flask, MongoDB. AI/ML: PyTorch, TensorFlow, scikit-learn, Pandas, NumPy, Ollama. Tools: Git, Azure DevOps, n8n, Linux, Tableau"/>
+-->
 
 ### ~/about
 
