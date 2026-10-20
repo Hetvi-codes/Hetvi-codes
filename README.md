@@ -3,18 +3,31 @@
     <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Waving%20Hand.png" width="34" height="34" alt="Wave" />
     Hi there, I'm Hetvi!
   </h1>
-  <p><em>Welcome to my space — turning curiosity into intelligent, scalable software.</em></p>
+  <p><em>Welcome to my space — turning curiosity into Solutions</em></p>
 </div>
 
 <br/>
 
 <img src="assets/header.svg" width="100%" alt="Hetvi Sampat — software engineer, full-stack + AI/ML builder"/>
 
-<!--
-### ~/stack
+### 💻 Tech Stack:
 
-<img src="assets/stack.svg" width="100%" alt="Tech stack — languages: Python, Java, C/C++, SQL, JavaScript, Shell. Web: React, FastAPI, Flask, MongoDB. AI/ML: PyTorch, TensorFlow, scikit-learn, Pandas, NumPy, Ollama. Tools: Git, Azure DevOps, n8n, Linux, Tableau"/>
--->
+<p align="left">
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python" width="36" height="36"/>&nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="C++" width="36" height="36"/>&nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="Java" width="36" height="36"/>&nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="HTML5" width="36" height="36"/>&nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="CSS3" width="36" height="36"/>&nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript" width="36" height="36"/>&nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" alt="React" width="36" height="36"/>&nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/fastapi/fastapi-original.svg" alt="FastAPI" width="36" height="36"/>&nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg" alt="MongoDB" width="36" height="36"/>&nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg" alt="MySQL" width="36" height="36"/>&nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" alt="Git" width="36" height="36"/>&nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="Linux" width="36" height="36"/>
+  &nbsp;&nbsp;<em>and many more...</em>
+</p>
+
 
 ### ~/about
 
