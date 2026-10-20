@@ -12,11 +12,11 @@
 
 ### ~/top-projects
 
-<a href="https://github.com/Hetvi-code29905/FinSure"><img src="assets/project_finsure.svg" width="100%" alt="FinSure — AI-powered financial stability and risk intelligence platform"/></a>
+<a href="https://github.com/Hetvi-codes/FinSure"><img src="assets/project_finsure.svg" width="100%" alt="FinSure — AI-powered financial stability and risk intelligence platform"/></a>
 
-<a href="https://github.com/Hetvi-code29905/SignSight-V1-Real-Time_ASL_Gesture_Recognition"><img src="assets/project_signsight.svg" width="100%" alt="SignSight V1 — full-stack real-time sign language translation"/></a>
+<a href="https://github.com/Hetvi-codes/SignSight-V1-Real-Time_ASL_Gesture_Recognition"><img src="assets/project_signsight.svg" width="100%" alt="SignSight V1 — full-stack real-time sign language translation"/></a>
 
-<a href="https://github.com/Hetvi-code29905/Note-Flow-AI-Youtube-Video-Brain"><img src="assets/project_noteflow.svg" width="100%" alt="NoteFlow AI — YouTube video brain"/></a>
+<a href="https://github.com/Hetvi-codes/Note-Flow-AI-Youtube-Video-Brain"><img src="assets/project_noteflow.svg" width="100%" alt="NoteFlow AI — YouTube video brain"/></a>
 
 ### ~/languages
 

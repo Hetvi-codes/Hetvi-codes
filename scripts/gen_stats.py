@@ -5,7 +5,7 @@ Set GH_USER to override the username."""
 import os, re, math, html, shutil, subprocess, tempfile, datetime as dt, urllib.request
 from pathlib import Path
 
-USER = os.environ.get("GH_USER", "Hetvi-code29905")
+USER = os.environ.get("GH_USER", "Hetvi-codes")
 OUT = Path(__file__).resolve().parent.parent / "assets"
 HDR = {"User-Agent": "Mozilla/5.0 (profile-stats-generator)"}
 MONO = "ui-monospace,'SF Mono','JetBrains Mono','Fira Code',Menlo,Consolas,'DejaVu Sans Mono',monospace"
