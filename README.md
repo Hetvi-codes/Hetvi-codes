@@ -10,32 +10,13 @@
 
 <img src="assets/header.svg" width="100%" alt="Hetvi Sampat — software engineer, full-stack + AI/ML builder"/>
 
-### 💻 Tech Stack:
-
-<p align="left">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python" width="36" height="36"/>&nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="C++" width="36" height="36"/>&nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="Java" width="36" height="36"/>&nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="HTML5" width="36" height="36"/>&nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="CSS3" width="36" height="36"/>&nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript" width="36" height="36"/>&nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" alt="React" width="36" height="36"/>&nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/fastapi/fastapi-original.svg" alt="FastAPI" width="36" height="36"/>&nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg" alt="MongoDB" width="36" height="36"/>&nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg" alt="MySQL" width="36" height="36"/>&nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" alt="Git" width="36" height="36"/>&nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="Linux" width="36" height="36"/>
-  &nbsp;&nbsp;<em>and many more...</em>
-</p>
-
-
 ### ~/about
 
 <img src="assets/about.svg" width="100%" alt="About: CS Undergrad | Software Engineer | Adaptive AI. Building full-stack web apps, AI applications, and scalable backend systems; exploring Adaptive AI, algorithmic systems, and clean code."/>
 
-### ~/languages
+### ~/languages & stack
 
-<img src="assets/gh_languages.svg" width="100%" alt="Language distribution: what I code most"/>
+<img src="assets/gh_languages.svg" width="100%" alt="Languages & Tech Stack — Language distribution and core tech stack"/>
 
 ### ~/coding-profiles
 
