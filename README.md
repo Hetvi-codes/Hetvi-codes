@@ -1,3 +1,13 @@
+<div align="center">
+  <h1>
+    <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Waving%20Hand.png" width="34" height="34" alt="Wave" />
+    Hi there, I'm Hetvi!
+  </h1>
+  <p><em>Welcome to my space — turning curiosity into intelligent, scalable software.</em></p>
+</div>
+
+<br/>
+
 <img src="assets/header.svg" width="100%" alt="Hetvi Sampat — software engineer, full-stack + AI/ML builder"/>
 
 <!--
@@ -9,14 +19,6 @@
 ### ~/about
 
 <img src="assets/about.svg" width="100%" alt="About: CS Undergrad | Software Engineer | Adaptive AI. Building full-stack web apps, AI applications, and scalable backend systems; exploring Adaptive AI, algorithmic systems, and clean code."/>
-
-### ~/top-projects
-
-<a href="https://github.com/Hetvi-codes/FinSure"><img src="assets/project_finsure.svg" width="100%" alt="FinSure — AI-powered financial stability and risk intelligence platform"/></a>
-
-<a href="https://github.com/Hetvi-codes/SignSight-V1-Real-Time_ASL_Gesture_Recognition"><img src="assets/project_signsight.svg" width="100%" alt="SignSight V1 — full-stack real-time sign language translation"/></a>
-
-<a href="https://github.com/Hetvi-codes/Note-Flow-AI-Youtube-Video-Brain"><img src="assets/project_noteflow.svg" width="100%" alt="NoteFlow AI — YouTube video brain"/></a>
 
 ### ~/languages
 
