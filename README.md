@@ -8,7 +8,7 @@
 
 ### ~/about
 
-<img src="assets/about.svg" width="100%" alt="About: Building software that thinks, adapts, and removes friction. What drives me: Adaptive Intelligence, Fintech & High-Stakes Logic, Multi-Modal Experiences, The Builder's Mindset, and Continuous Curiosity."/>
+<img src="assets/about.svg" width="100%" alt="About: CS Undergrad | Software Engineer | Adaptive AI. Building full-stack web apps, AI applications, and scalable backend systems; exploring Adaptive AI, algorithmic systems, and clean code."/>
 
 ### ~/top-projects
 

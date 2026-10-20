@@ -90,10 +90,10 @@ def languages_svg(totals):
     total = sum(v for _, v in items) or 1
     if len(items) > 6:
         other = sum(v for _, v in items[5:]); items = items[:5] + [("Other", other)]
-    H = 44 + 56 + len(items) * 30 + 34
+    H = 230
     s = [head(W, H, "Language distribution: " + ", ".join(k for k, _ in items))]
     s.append(chrome(W, H, "languages --sort most-used"))
-    cx, cy, r, sw = 160, 44 + (H - 44) / 2, 66, 26
+    cx, cy, r, sw = 310, 137, 54, 22
     C = 2 * math.pi * r
     s.append(f'<circle cx="{cx}" cy="{cy}" r="{r}" fill="none" stroke="var(--line)" stroke-width="{sw}"/>')
     off = 0
@@ -103,13 +103,13 @@ def languages_svg(totals):
         s.append(f'<circle class="dr" cx="{cx}" cy="{cy}" r="{r}" fill="none" stroke="{COLORS.get(k, "#A1A1AA")}" stroke-width="{sw}" '
                  f'stroke-dasharray="{max(seg-gap,0.1):.2f} {C:.2f}" stroke-dashoffset="{-off:.2f}" transform="rotate(-90 {cx} {cy})"/>')
         off += seg
-    s.append(f'<text class="acc" x="{cx}" y="{cy+8}" font-size="24" font-weight="700" text-anchor="middle">&lt;/&gt;</text>')
-    s.append('<text x="320" y="84" font-size="12"><tspan class="acc">$</tspan><tspan class="dim"> what I code most</tspan></text>')
+    s.append(f'<text class="acc" x="{cx}" y="{cy+6}" font-size="20" font-weight="700" text-anchor="middle">&lt;/&gt;</text>')
+    s.append('<text x="460" y="78" font-size="12"><tspan class="acc">$</tspan><tspan class="dim"> what I code most</tspan></text>')
     for i, (k, v) in enumerate(items):
-        y = 122 + i * 30
+        y = 108 + i * 24
         col = COLORS.get(k, "#A1A1AA")
-        s.append(f'<circle cx="326" cy="{y-4}" r="5" fill="{col}"/>')
-        s.append(f'<text class="fg" x="344" y="{y}" font-size="13" font-weight="700">{esc(k)}</text>')
+        s.append(f'<circle cx="466" cy="{y-4}" r="5" fill="{col}"/>')
+        s.append(f'<text class="fg" x="482" y="{y}" font-size="13" font-weight="700">{esc(k)}</text>')
     s.append('</svg>')
     return "".join(s)
 
